@@ -1,0 +1,19 @@
+#+TITLE: clojurepy - Clojure in the Python VM
+#+AUTHOR: Benjamin Zaporzan
+#+DATE: 2018-09-11
+#+EMAIL: benzaporzan@gmail.com
+#+LANGUAGE: en
+#+OPTIONS: H:2 num:t toc:t \n:nil ::t |:t ^:t f:t tex:t
+
+* Development
+  while in the main project directory
+  
+** Linux
+   #+BEGIN_SRC sh
+   virtualenv venv
+   . ./venv/bin/activate
+   pip install -e .
+   #+END_SRC
+
+   This makes the ~cljpy~ commandline tool available for development
+   in a virtual environment.
